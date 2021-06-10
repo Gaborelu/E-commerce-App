@@ -208,8 +208,8 @@ const ProductPage = ({ history, match }) => {
                     </Form>
                   ) : (
                     <Message>
-                      Va rugam <Link to='/login'>autentificativa</Link> pentru a
-                      scrie un review{' '}
+                      Va rugam <Link to='/login'>autentificati-va</Link> pentru
+                      a scrie un review{' '}
                     </Message>
                   )}
                 </ListGroup.Item>

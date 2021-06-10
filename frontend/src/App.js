@@ -7,7 +7,6 @@ import HomePage from './pages/HomePage'
 import PhonePage from './pages/PhonePage'
 import LaptopPage from './pages/LaptopPage'
 import PCPage from './pages/PCPage'
-import TabletPage from './pages/TabletPage'
 import PerifericePage from './pages/PerifericePage'
 import ProductPage from './pages/ProductPage'
 import CartPage from './pages/CartPage'
@@ -58,7 +57,7 @@ const App = () => {
           />
           <Route path='/' component={HomePage} exact />
           <Route path='/pc' component={PCPage} />
-          <Route path='/tablete' component={TabletPage} />
+
           <Route path='/phones' component={PhonePage} />
           <Route path='/laptop' component={LaptopPage} />
           <Route path='/periferice' component={PerifericePage} />

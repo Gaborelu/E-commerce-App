@@ -1,9 +1,9 @@
 const products = [
   {
-    name: 'Laptop ultraportabil Huawei MateBook X Pro',
-    image: '/images/laptop-huawei-x.webp',
+    name: 'Laptop Huawei MateBook 14',
+    image: '/images/laptop-huawei-14.webp',
     description:
-      'Laptop ultraportabil Huawei MateBook X Pro 2020 cu procesor Intel® Core™ i5-10210U pana la 4.20 GHz, 13.9", 3K, Touch, 16GB, 512B SSD, NVIDIA® GeForce® MX250 2GB, Windows 10 Pro, Space Gray',
+      'Laptop ultraportabil Huawei MateBook 14 cu procesor AMD Ryzen 5 4600H pana la 4.00 GHz, 14", 2K, 16GB, 512GB SSD, AMD Radeon Graphics, Windows 10 Home, Gray',
     brand: 'Huawei',
     category: 'Laptop',
     price: 3999.99,
@@ -12,17 +12,18 @@ const products = [
     numReviews: 0,
   },
   {
-    name: 'Amazon Echo Dot 3rd Generation',
-    image: '/images/alexa.jpg',
+    name: 'Sistem Desktop PC Gaming Acer N50-610',
+    image: '/images/Acer-Nitro-Desktop-PC.webp',
     description:
-      'Faceți cunoștință cu Echo Dot - Cel mai popular difuzor inteligent. Este cel mai compact difuzor inteligent al nostru care se potrivește perfect într-un spațiu mic',
-    brand: 'Amazon',
-    category: 'Periferice',
-    price: 29.99,
-    countInStock: 0,
+      'Sistem Desktop PC Gaming Acer N50-610 cu procesor Intel® Core™ i5-10400F pana la 4.30GHz, 16GB DDR4, 512GB SSD, Wi-Fi 6, NVIDIA® GeForce® GTX 1660 Super™ 6GB, No OS. Desktopul Nitro 50 asigura o performanta ridicata, pentru jocuri fara intreruperi si o grafica usoara pentru sarcinile intense, cu procesorul sau Intel® Core™ de a 10-a generatie si placa video nVidia la conducere.',
+    brand: 'Acer',
+    category: 'PC',
+    price: 3999.99,
+    countInStock: 10,
     rating: 0,
     numReviews: 0,
   },
+
   {
     name: 'Telefon mobil Samsung Galaxy S20 Ultra',
     image: '/images/s20.jpg',
@@ -168,6 +169,18 @@ const products = [
     numReviews: 0,
   },
   {
+    name: 'Amazon Echo Dot 3rd Generation',
+    image: '/images/alexa.jpg',
+    description:
+      'Faceți cunoștință cu Echo Dot - Cel mai popular difuzor inteligent. Este cel mai compact difuzor inteligent al nostru care se potrivește perfect într-un spațiu mic',
+    brand: 'Amazon',
+    category: 'Periferice',
+    price: 29.99,
+    countInStock: 0,
+    rating: 0,
+    numReviews: 0,
+  },
+  {
     name: 'Telefon mobil Samsung Galaxy A52',
     image: '/images/a52.webp',
     description:
@@ -179,18 +192,7 @@ const products = [
     rating: 0,
     numReviews: 0,
   },
-  {
-    name: 'Sistem Desktop PC Gaming Acer N50-610',
-    image: '/images/Acer-Nitro-Desktop-PC.webp',
-    description:
-      'Sistem Desktop PC Gaming Acer N50-610 cu procesor Intel® Core™ i5-10400F pana la 4.30GHz, 16GB DDR4, 512GB SSD, Wi-Fi 6, NVIDIA® GeForce® GTX 1660 Super™ 6GB, No OS. Desktopul Nitro 50 asigura o performanta ridicata, pentru jocuri fara intreruperi si o grafica usoara pentru sarcinile intense, cu procesorul sau Intel® Core™ de a 10-a generatie si placa video nVidia la conducere.',
-    brand: 'Acer',
-    category: 'PC',
-    price: 3999.99,
-    countInStock: 10,
-    rating: 0,
-    numReviews: 0,
-  },
+
   {
     name: 'Sistem Desktop PC Serioux Powered by ASUS',
     image: '/images/Asus-Dekstop-PC.webp',
@@ -211,6 +213,18 @@ const products = [
     brand: 'Asus',
     category: 'PC',
     price: 2999.99,
+    countInStock: 10,
+    rating: 0,
+    numReviews: 0,
+  },
+  {
+    name: 'Laptop ultraportabil Huawei MateBook X Pro',
+    image: '/images/laptop-huawei-x.webp',
+    description:
+      'Laptop ultraportabil Huawei MateBook X Pro 2020 cu procesor Intel® Core™ i5-10210U pana la 4.20 GHz, 13.9", 3K, Touch, 16GB, 512B SSD, NVIDIA® GeForce® MX250 2GB, Windows 10 Pro, Space Gray',
+    brand: 'Huawei',
+    category: 'Laptop',
+    price: 3999.99,
     countInStock: 10,
     rating: 0,
     numReviews: 0,
@@ -330,18 +344,6 @@ const products = [
     description:
       'Laptop ultraportabil ASUS ZenBook 14 UX425EA cu procesor Intel® Core™ i5-1135G7 pana la 4.20 GHz, 14", Full HD, 8GB, 1TB SSD, Intel Iris Xᵉ Graphics, No OS, Pine Grey',
     brand: 'Asus',
-    category: 'Laptop',
-    price: 3999.99,
-    countInStock: 10,
-    rating: 0,
-    numReviews: 0,
-  },
-  {
-    name: 'Laptop ultraportabil Huawei MateBook 14',
-    image: '/images/laptop-huawei-14.webp',
-    description:
-      'Laptop ultraportabil Huawei MateBook 14 cu procesor AMD Ryzen 5 4600H pana la 4.00 GHz, 14", 2K, 16GB, 512GB SSD, AMD Radeon Graphics, Windows 10 Home, Gray',
-    brand: 'Huawei',
     category: 'Laptop',
     price: 3999.99,
     countInStock: 10,

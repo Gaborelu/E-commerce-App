@@ -44,9 +44,6 @@ const Header = () => {
                 <LinkContainer to='/pc'>
                   <NavDropdown.Item>Desktop-PC</NavDropdown.Item>
                 </LinkContainer>
-                <LinkContainer to='/tablete'>
-                  <NavDropdown.Item>Tablete</NavDropdown.Item>
-                </LinkContainer>
                 <LinkContainer to='/periferice'>
                   <NavDropdown.Item>Periferice si accesori</NavDropdown.Item>
                 </LinkContainer>
