@@ -4,10 +4,6 @@ import { Container } from 'react-bootstrap'
 import Header from './components/Header'
 import Footer from './components/Footer'
 import HomePage from './pages/HomePage'
-import PhonePage from './pages/PhonePage'
-import LaptopPage from './pages/LaptopPage'
-import PCPage from './pages/PCPage'
-import PerifericePage from './pages/PerifericePage'
 import ProductPage from './pages/ProductPage'
 import CartPage from './pages/CartPage'
 import LoginPage from './pages/LoginPage'
@@ -56,11 +52,6 @@ const App = () => {
             exact
           />
           <Route path='/' component={HomePage} exact />
-          <Route path='/pc' component={PCPage} />
-
-          <Route path='/phones' component={PhonePage} />
-          <Route path='/laptop' component={LaptopPage} />
-          <Route path='/periferice' component={PerifericePage} />
         </Container>
       </main>
       <Footer />

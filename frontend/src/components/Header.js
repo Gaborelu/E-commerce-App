@@ -2,14 +2,7 @@ import React from 'react'
 import { Route } from 'react-router-dom'
 import { useDispatch, useSelector } from 'react-redux'
 import { LinkContainer } from 'react-router-bootstrap'
-import {
-  Navbar,
-  Nav,
-  Container,
-  NavDropdown,
-  Dropdown,
-  DropdownButton,
-} from 'react-bootstrap'
+import { Navbar, Nav, Container, NavDropdown } from 'react-bootstrap'
 import SearchBox from './SearchBox'
 import { logout } from '../actions/userActions'
 
@@ -34,21 +27,6 @@ const Header = () => {
           <Navbar.Collapse id='basic-navbar-nav'>
             <Route render={({ history }) => <SearchBox history={history} />} />
             <Nav className='ml-auto'>
-              <NavDropdown title='Produse' id='produse'>
-                <LinkContainer to='/phones'>
-                  <NavDropdown.Item>Telefoane</NavDropdown.Item>
-                </LinkContainer>
-                <LinkContainer to='/laptop'>
-                  <NavDropdown.Item>Laptopuri</NavDropdown.Item>
-                </LinkContainer>
-                <LinkContainer to='/pc'>
-                  <NavDropdown.Item>Desktop-PC</NavDropdown.Item>
-                </LinkContainer>
-                <LinkContainer to='/periferice'>
-                  <NavDropdown.Item>Periferice si accesori</NavDropdown.Item>
-                </LinkContainer>
-              </NavDropdown>
-
               {userInfo ? (
                 <NavDropdown title={userInfo.name} id='username'>
                   <LinkContainer to='/profile'>
